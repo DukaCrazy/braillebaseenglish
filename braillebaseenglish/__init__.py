@@ -133,5 +133,3 @@ class BrailleBaseEnglish(BrailleBase):
         #internet
         self.append_braille_letter("@", ["⠈", "⠁"]) #2026/06/09
 
-#bb = BrailleBaseEnglish()
-#print(bb.translate_text_to_braille("i like play game. I'm DOGger"))
