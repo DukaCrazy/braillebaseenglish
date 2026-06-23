@@ -6,7 +6,7 @@ class BrailleBaseEnglish(BrailleBase):
         """
         """
         super().__init__()
-        self.setting_braille_rules01("⠠", "⠠⠄") #2026/05/18
+        self.setting_braille_rules_uppercase("⠠", "⠠⠄") #2026/05/18
         #letras min
         self.append_braille_letter("a", ["⠁"]) #2026/06/09
         self.append_braille_letter("b", ["⠃"]) #2026/06/09
@@ -36,32 +36,32 @@ class BrailleBaseEnglish(BrailleBase):
         self.append_braille_letter("z", ["⠵"]) #2026/06/09
 
        #letras maiusc
-        self.append_special_braille_lettr_rules01("A", ["⠁"]) #2026/06/09
-        self.append_special_braille_lettr_rules01("B", ["⠃"]) #2026/06/09
-        self.append_special_braille_lettr_rules01("C", ["⠉"]) #2026/06/09
-        self.append_special_braille_lettr_rules01("D", ["⠙"]) #2026/06/09
-        self.append_special_braille_lettr_rules01("E", ["⠑"]) #2026/06/09
-        self.append_special_braille_lettr_rules01("F", ["⠋"]) #2026/06/09
-        self.append_special_braille_lettr_rules01("G", ["⠛"]) #2026/06/09
-        self.append_special_braille_lettr_rules01("H", ["⠓"]) #2026/06/09
-        self.append_special_braille_lettr_rules01("I", ["⠊"]) #2026/06/09
-        self.append_special_braille_lettr_rules01("J", ["⠚"]) #2026/06/09
-        self.append_special_braille_lettr_rules01("K", ["⠅"]) #2026/06/09
-        self.append_special_braille_lettr_rules01("L", ["⠇"]) #2026/06/09
-        self.append_special_braille_lettr_rules01("M", ["⠍"]) #2026/06/09
-        self.append_special_braille_lettr_rules01("N", ["⠝"]) #2026/06/09
-        self.append_special_braille_lettr_rules01("O", ["⠕"]) #2026/06/09
-        self.append_special_braille_lettr_rules01("P", ["⠏"]) #2026/06/09
-        self.append_special_braille_lettr_rules01("Q", ["⠟"]) #2026/06/09
-        self.append_special_braille_lettr_rules01("R", ["⠗"]) #2026/06/09
-        self.append_special_braille_lettr_rules01("S", ["⠎"]) #2026/06/09
-        self.append_special_braille_lettr_rules01("T", ["⠞"]) #2026/06/09
-        self.append_special_braille_lettr_rules01("U", ["⠥"]) #2026/06/09
-        self.append_special_braille_lettr_rules01("V", ["⠧"]) #2026/06/09
-        self.append_special_braille_lettr_rules01("W", ["⠺"]) #2026/06/09
-        self.append_special_braille_lettr_rules01("X", ["⠭"]) #2026/06/09
-        self.append_special_braille_lettr_rules01("Y", ["⠽"]) #2026/06/09
-        self.append_special_braille_lettr_rules01("Z", ["⠵"]) #2026/06/09
+        self.append_special_braille_letter_rules_uppercase("A", ["⠁"]) #2026/06/09
+        self.append_special_braille_letter_rules_uppercase("B", ["⠃"]) #2026/06/09
+        self.append_special_braille_letter_rules_uppercase("C", ["⠉"]) #2026/06/09
+        self.append_special_braille_letter_rules_uppercase("D", ["⠙"]) #2026/06/09
+        self.append_special_braille_letter_rules_uppercase("E", ["⠑"]) #2026/06/09
+        self.append_special_braille_letter_rules_uppercase("F", ["⠋"]) #2026/06/09
+        self.append_special_braille_letter_rules_uppercase("G", ["⠛"]) #2026/06/09
+        self.append_special_braille_letter_rules_uppercase("H", ["⠓"]) #2026/06/09
+        self.append_special_braille_letter_rules_uppercase("I", ["⠊"]) #2026/06/09
+        self.append_special_braille_letter_rules_uppercase("J", ["⠚"]) #2026/06/09
+        self.append_special_braille_letter_rules_uppercase("K", ["⠅"]) #2026/06/09
+        self.append_special_braille_letter_rules_uppercase("L", ["⠇"]) #2026/06/09
+        self.append_special_braille_letter_rules_uppercase("M", ["⠍"]) #2026/06/09
+        self.append_special_braille_letter_rules_uppercase("N", ["⠝"]) #2026/06/09
+        self.append_special_braille_letter_rules_uppercase("O", ["⠕"]) #2026/06/09
+        self.append_special_braille_letter_rules_uppercase("P", ["⠏"]) #2026/06/09
+        self.append_special_braille_letter_rules_uppercase("Q", ["⠟"]) #2026/06/09
+        self.append_special_braille_letter_rules_uppercase("R", ["⠗"]) #2026/06/09
+        self.append_special_braille_letter_rules_uppercase("S", ["⠎"]) #2026/06/09
+        self.append_special_braille_letter_rules_uppercase("T", ["⠞"]) #2026/06/09
+        self.append_special_braille_letter_rules_uppercase("U", ["⠥"]) #2026/06/09
+        self.append_special_braille_letter_rules_uppercase("V", ["⠧"]) #2026/06/09
+        self.append_special_braille_letter_rules_uppercase("W", ["⠺"]) #2026/06/09
+        self.append_special_braille_letter_rules_uppercase("X", ["⠭"]) #2026/06/09
+        self.append_special_braille_letter_rules_uppercase("Y", ["⠽"]) #2026/06/09
+        self.append_special_braille_letter_rules_uppercase("Z", ["⠵"]) #2026/06/09
 
         #number
         self.append_braille_letter("⠼", ["⠼"]) #2026/06/09
