@@ -36,32 +36,32 @@ class BrailleBaseEnglish(BrailleBase):
         self.append_braille_letter("z", ["⠵"]) #2026/06/09
 
        #letras maiusc
-        self.append_special_braille_letter_rules_uppercase("A", ["⠁"]) #2026/06/09
-        self.append_special_braille_letter_rules_uppercase("B", ["⠃"]) #2026/06/09
-        self.append_special_braille_letter_rules_uppercase("C", ["⠉"]) #2026/06/09
-        self.append_special_braille_letter_rules_uppercase("D", ["⠙"]) #2026/06/09
-        self.append_special_braille_letter_rules_uppercase("E", ["⠑"]) #2026/06/09
-        self.append_special_braille_letter_rules_uppercase("F", ["⠋"]) #2026/06/09
-        self.append_special_braille_letter_rules_uppercase("G", ["⠛"]) #2026/06/09
-        self.append_special_braille_letter_rules_uppercase("H", ["⠓"]) #2026/06/09
-        self.append_special_braille_letter_rules_uppercase("I", ["⠊"]) #2026/06/09
-        self.append_special_braille_letter_rules_uppercase("J", ["⠚"]) #2026/06/09
-        self.append_special_braille_letter_rules_uppercase("K", ["⠅"]) #2026/06/09
-        self.append_special_braille_letter_rules_uppercase("L", ["⠇"]) #2026/06/09
-        self.append_special_braille_letter_rules_uppercase("M", ["⠍"]) #2026/06/09
-        self.append_special_braille_letter_rules_uppercase("N", ["⠝"]) #2026/06/09
-        self.append_special_braille_letter_rules_uppercase("O", ["⠕"]) #2026/06/09
-        self.append_special_braille_letter_rules_uppercase("P", ["⠏"]) #2026/06/09
-        self.append_special_braille_letter_rules_uppercase("Q", ["⠟"]) #2026/06/09
-        self.append_special_braille_letter_rules_uppercase("R", ["⠗"]) #2026/06/09
-        self.append_special_braille_letter_rules_uppercase("S", ["⠎"]) #2026/06/09
-        self.append_special_braille_letter_rules_uppercase("T", ["⠞"]) #2026/06/09
-        self.append_special_braille_letter_rules_uppercase("U", ["⠥"]) #2026/06/09
-        self.append_special_braille_letter_rules_uppercase("V", ["⠧"]) #2026/06/09
-        self.append_special_braille_letter_rules_uppercase("W", ["⠺"]) #2026/06/09
-        self.append_special_braille_letter_rules_uppercase("X", ["⠭"]) #2026/06/09
-        self.append_special_braille_letter_rules_uppercase("Y", ["⠽"]) #2026/06/09
-        self.append_special_braille_letter_rules_uppercase("Z", ["⠵"]) #2026/06/09
+        self.append_braille_letter("A", ["⠁"],1) #2026/06/09
+        self.append_braille_letter("B", ["⠃"],1) #2026/06/09
+        self.append_braille_letter("C", ["⠉"],1) #2026/06/09
+        self.append_braille_letter("D", ["⠙"],1) #2026/06/09
+        self.append_braille_letter("E", ["⠑"],1) #2026/06/09
+        self.append_braille_letter("F", ["⠋"],1) #2026/06/09
+        self.append_braille_letter("G", ["⠛"],1) #2026/06/09
+        self.append_braille_letter("H", ["⠓"],1) #2026/06/09
+        self.append_braille_letter("I", ["⠊"],1) #2026/06/09
+        self.append_braille_letter("J", ["⠚"],1) #2026/06/09
+        self.append_braille_letter("K", ["⠅"],1) #2026/06/09
+        self.append_braille_letter("L", ["⠇"],1) #2026/06/09
+        self.append_braille_letter("M", ["⠍"],1) #2026/06/09
+        self.append_braille_letter("N", ["⠝"],1) #2026/06/09
+        self.append_braille_letter("O", ["⠕"],1) #2026/06/09
+        self.append_braille_letter("P", ["⠏"],1) #2026/06/09
+        self.append_braille_letter("Q", ["⠟"],1) #2026/06/09
+        self.append_braille_letter("R", ["⠗"],1) #2026/06/09
+        self.append_braille_letter("S", ["⠎"],1) #2026/06/09
+        self.append_braille_letter("T", ["⠞"],1) #2026/06/09
+        self.append_braille_letter("U", ["⠥"],1) #2026/06/09
+        self.append_braille_letter("V", ["⠧"],1) #2026/06/09
+        self.append_braille_letter("W", ["⠺"],1) #2026/06/09
+        self.append_braille_letter("X", ["⠭"],1) #2026/06/09
+        self.append_braille_letter("Y", ["⠽"],1) #2026/06/09
+        self.append_braille_letter("Z", ["⠵"],1) #2026/06/09
 
         #number
         self.append_braille_letter("⠼", ["⠼"]) #2026/06/09
@@ -132,4 +132,3 @@ class BrailleBaseEnglish(BrailleBase):
 
         #internet
         self.append_braille_letter("@", ["⠈", "⠁"]) #2026/06/09
-
