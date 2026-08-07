@@ -19,3 +19,5 @@
 - Invocation of the special append methods via the simple append method using the third argument.
 - Specific rules for uppercase Latin letters.
 - Spelling fix in method names: lettr -> letter
+
+<img src="./img/logo.png" alt="Logo" width="500" height="493">
