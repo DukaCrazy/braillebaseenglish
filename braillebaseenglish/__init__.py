@@ -6,7 +6,7 @@ class BrailleBaseEnglish(BrailleBase):
         """
         """
         super().__init__()
-        self.setting_braille_rules_uppercase("⠠", "⠠⠄") #2026/05/18
+        self.setting_braille_rules_uppercase("⠠","⠠⠠","⠠⠄") #2026/09/06
         #letras min
         self.append_braille_letter("a", ["⠁"]) #2026/06/09
         self.append_braille_letter("b", ["⠃"]) #2026/06/09
